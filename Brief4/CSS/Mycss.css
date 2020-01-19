@@ -3,7 +3,6 @@ body{
       margin: 0px;
       height: 100%;
       width: 100%;
-      overflow-x: hidden;
 }
 .container {
   position: absolute;
@@ -225,14 +224,14 @@ footer p{
   flex-direction: row;
   margin-left: 400px;
 }
-@media screen and (max-width: 363px)  {
+@media screen and (max-width: 360px)  {
   body{
         margin: 0px;
         width: 360px;
      } 
   .container{
         position: fixed;
-        width: 396px;
+        width: 360px;
         background-color: black;
         border-bottom: 2px solid #000000;
   }
@@ -306,14 +305,18 @@ footer p{
               }
         #tower{
           margin-top: 72px;
-          width: 110%;
           height: 290px;
         }
+        .Partie1{
+          flex-direction: column;
+          width: 100%;
+        }
     .imgp1 {
-      width: auto;
+      width: 100%;
 height: auto;
       }  
-img {height: 300px;}
+.pic {height: 300px;
+width: 100%;}
         
     .videotxt {
       margin-top: 20px;
@@ -345,7 +348,7 @@ img {height: 300px;}
       margin-top: 70px;
     }
     #ftr{
-      width: 397px;
+      width: 100%;
       height: 70px;
     }
     .email h1{
@@ -417,7 +420,7 @@ img {height: 300px;}
           }
 
           footer{
-            width: 397px;
+            width: 100%;
           }
           footer p{
             font-size: 10px;
