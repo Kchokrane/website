@@ -455,7 +455,7 @@ footer{
     width:30px;
     
 }
-/*.btn_menu2
+.btn_menu2
 {
     display: inline;
     position: fixed;
@@ -463,7 +463,7 @@ footer{
     left: 30px;
     height: 30px;
     width:30px;
-}*/
+}
 .btn_close
 {
     display: none;
