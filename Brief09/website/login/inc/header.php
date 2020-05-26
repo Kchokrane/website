@@ -29,9 +29,10 @@ if(session_status() == PHP_SESSION_NONE){
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">inscription</a>
+           
+            <a href="./../index.html"><img src="../img/logo.png" alt="" style="margin: 5px;"></a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
+        <div id="navbar" class="collapse navbar-collapse" style="float:right;">
             <ul class="nav navbar-nav">
                 <?php if (isset($_SESSION['auth'])): ?>
                     <li><a href="logout.php">Se déconnecter</a></li>

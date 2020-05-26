@@ -65,7 +65,7 @@
                         <ul>
                             <li><a href="#"><i class="fa fa-shopping-bag"></i> <span class="cartProductsNb">0</span></a></li>
                             <div class="header__top__right__auth">
-                                <a href="#"><i class="fa fa-user"></i> Login</a>
+                                <a href="login/login.php"><i class="fa fa-user"></i> Login</a>
                             </div>
                         </ul>
                     </div>
