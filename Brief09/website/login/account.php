@@ -10,7 +10,7 @@ require 'inc/header.php';
     <form action="" method="post">
         <div class="form-group">
            
-        <button class="btn btn-primary"><a href="./index.html">Home</a></button>
+        <button class="btn btn-primary"><a href="./../index.php">Home</a></button>
     </form>
 
 

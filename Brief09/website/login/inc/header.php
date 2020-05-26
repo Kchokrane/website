@@ -30,7 +30,7 @@ if(session_status() == PHP_SESSION_NONE){
                 <span class="icon-bar"></span>
             </button>
            
-            <a href="./../index.html"><img src="../img/logo.png" alt="" style="margin: 5px;"></a>
+            <a href="./../index.php"><img src="../img/logo.png" alt="" style="margin: 5px;"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse" style="float:right;">
             <ul class="nav navbar-nav">

@@ -9,10 +9,11 @@
   Footer
 -----------------------*/
 .footer {
-    margin-top:25px;
+    margin-top:125px;
     background: #F3F6FA;
     padding-top: 70px;
     padding-bottom: 0;
+    margin-bottom: 0px;
   }
   
   .footer__about {
